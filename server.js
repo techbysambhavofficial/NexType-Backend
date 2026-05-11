@@ -23,6 +23,7 @@ app.use(compression());
 // Dynamic CORS configuration for production
 const allowedOrigins = [
   'https://nextype-frontend.onrender.com',
+  'https://nextype.onrender.com',
   'https://nextype-frontend.vercel.app',
   'http://localhost:3000',
   'http://localhost:3001'
